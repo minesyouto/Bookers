@@ -1,0 +1,43 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+    box-sizing: border-box;
+}
+
+a {
+    color:black;
+}
+a:hover {
+    color:white;
+    background-color:black;
+}
+.new {
+    position:relative;
+    height:300px;
+}
+.submit {
+    color:gray;
+    text-align:left;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.font {
+    font-weight:bold;
+    padding-right:5px;
+}
+.wrapper {
+    margin:30px;
+}
+.button {
+    margin:10px;
+}
+.back {
+    border-left:1px solid black;
+    padding-left:5px;
+}
+#notice {
+    color:green;
+    font-weight:bold;
+}

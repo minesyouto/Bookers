@@ -1,0 +1,16 @@
+<div class="wrapper">
+    <p id="notice">
+        <%= notice %>
+    </p>
+    <p class="text"><span class="font">Title:</span><%= @book.title %></p>
+        
+        
+    <p class="text"><span class="font">Body:</span><%= @book.body %></p>
+
+</div>
+
+<div class="button">
+    
+    <%= link_to "Edit" ,edit_book_path(@book)%>
+    <%= link_to "Back" ,'/books',class:"back" %>
+</div>
